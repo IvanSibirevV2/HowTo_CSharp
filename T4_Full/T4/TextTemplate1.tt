@@ -1,0 +1,30 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".txt" #>
+//Этот файл получен при помощи автогенерируемого по шаблону кода T4
+//Правая кнопка/Добавить класс/Выбрать в самом низу шаблон текста и дать ему свое имя
+//А дальше все по видео и по примеру.
+//На ютубе говорят, что при помощи этого движка можно писать автогенерируемый код проекта по шаблону, например модели данных
+//В частности sql crud запросы...
+//https://docs.microsoft.com/ru-ru/visualstudio/modeling/design-time-code-generation-by-using-t4-text-templates?view=vs-2019
+//https://www.youtube.com/watch?v=JHTOyM0IPsM
+//https://docs.microsoft.com/ru-ru/visualstudio/modeling/code-generation-and-t4-text-templates?view=vs-2019
+<#
+    for(int i = 0; i < 4; i++)
+    {
+        Write(i + ", ");
+    }
+    Write("4");
+#> Hello!
+<#= 2 + 3 #>
+<#
+    for(int i = 0; i < 4; i++)
+    {
+#>
+This is hello number <#= i+1 #>: Hello!
+<#
+    }
+#>

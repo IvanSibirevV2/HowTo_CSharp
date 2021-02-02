@@ -1,0 +1,14 @@
+﻿//Этот файл получен при помощи автогенерируемого по шаблону кода T4
+//Правая кнопка/Добавить класс/Выбрать в самом низу шаблон текста и дать ему свое имя
+//А дальше все по видео и по примеру.
+//На ютубе говорят, что при помощи этого движка можно писать автогенерируемый код проекта по шаблону, например модели данных
+//В частности sql crud запросы...
+//https://docs.microsoft.com/ru-ru/visualstudio/modeling/design-time-code-generation-by-using-t4-text-templates?view=vs-2019
+//https://www.youtube.com/watch?v=JHTOyM0IPsM
+//https://docs.microsoft.com/ru-ru/visualstudio/modeling/code-generation-and-t4-text-templates?view=vs-2019
+0, 1, 2, 3, 4 Hello!
+5
+This is hello number 1: Hello!
+This is hello number 2: Hello!
+This is hello number 3: Hello!
+This is hello number 4: Hello!

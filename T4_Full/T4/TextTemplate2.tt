@@ -1,0 +1,22 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".txt" #>//Можно поменять расширение полученного файла//Если cs то он добавится в проетк
+Squares:
+<#
+    for(int i = 0; i < 4; i++)
+    {
+#>
+    The square of <#= i #> is <#= Square(i+1) #>.
+<#
+    }
+#>
+That is the end of the list.
+<#+   // Start of class feature block//После блока добавления кода к классу шаблона могут идти только блоки добавления кода к классу шаблона, иначе будет ошибка
+private int Square(int i)
+{
+    return i*i;
+}
+#>

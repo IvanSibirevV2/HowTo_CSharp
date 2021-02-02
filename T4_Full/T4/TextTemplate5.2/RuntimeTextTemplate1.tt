@@ -1,0 +1,32 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+//Правая кнопка/Добавить класс/Выбрать Текстовый шаблон времени выполнения
+//Можно создавать параметры из шаблона через подобное объявление
+//Мне такой способ не нравится, параметры создаются приватные и их нельзя модифицировать
+<#@ Parameter Name="UserName" Type="System.String" #>
+В рантайме все равно нужно кодить в шаблоне...
+//Пожно насоздавать параметров ка добавляемый код к классу шаблона, 
+Тогда это будет как
+А сейчас выведем на экран закинутый из вне через конструктор шаблон апараметр
+<#=this.p_str#>
+<#+
+public System.String p_str="";
+public RuntimeTextTemplate1(
+	System.String _str=null
+):base() 
+{
+	if(_str!=null)this.p_str=_str;
+}
+//По аналогии приходится создавать тестовые методы
+        /// <summary> T4.RuntimeTextTemplate1.Test();/// </summary>
+        public static void Test() 
+        {
+            System.Console.WriteLine("/// <summary> T4.RuntimeTextTemplate1.Test();/// </summary>");
+            System.Console.WriteLine((new T4.RuntimeTextTemplate1()).TransformText());
+            System.Console.WriteLine((new T4.RuntimeTextTemplate1("Всем привет мир")).TransformText());
+            System.IO.File.WriteAllText("outputPage.html", (new T4.RuntimeTextTemplate1()).TransformText());
+        }
+#>

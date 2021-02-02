@@ -1,0 +1,14 @@
+C:\D\Git\20200416_1929_T4\T4\T4\bin\Debug\T4.exe.config
+C:\D\Git\20200416_1929_T4\T4\T4\bin\Debug\T4.exe
+C:\D\Git\20200416_1929_T4\T4\T4\bin\Debug\T4.pdb
+C:\D\Git\20200416_1929_T4\T4\T4\obj\Debug\T4.csprojAssemblyReference.cache
+C:\D\Git\20200416_1929_T4\T4\T4\obj\Debug\T4.csproj.CoreCompileInputs.cache
+C:\D\Git\20200416_1929_T4\T4\T4\obj\Debug\T4.exe
+C:\D\Git\20200416_1929_T4\T4\T4\obj\Debug\T4.pdb
+C:\D\Git\20200416_1929_T4\T4_full\T4\bin\Debug\T4.exe.config
+C:\D\Git\20200416_1929_T4\T4_full\T4\bin\Debug\T4.exe
+C:\D\Git\20200416_1929_T4\T4_full\T4\bin\Debug\T4.pdb
+C:\D\Git\20200416_1929_T4\T4_full\T4\obj\Debug\T4.csprojAssemblyReference.cache
+C:\D\Git\20200416_1929_T4\T4_full\T4\obj\Debug\T4.csproj.CoreCompileInputs.cache
+C:\D\Git\20200416_1929_T4\T4_full\T4\obj\Debug\T4.exe
+C:\D\Git\20200416_1929_T4\T4_full\T4\obj\Debug\T4.pdb

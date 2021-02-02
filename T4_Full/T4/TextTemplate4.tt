@@ -1,0 +1,132 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".txt" #>
+
+<#
+//СамоВозвращаемая функция
+//Это  патерн из JavaScript
+//Ближайшая аналогия из JavaScript это СамоВызываемая Или Анонимная функция.
+Get
+("UnKnown0 = 0")("UnKnown1 = 1")("UnKnown2 = 2")("UnKnown3 = 3")("UnKnown4 = 4")
+("Known5 = 5")
+("UnKnown6 = 6")("UnKnown7 = 7")
+("Backspase = 8")
+("Tab = 9")
+("UnKnown10 = 10")("UnKnown11 = 11")("UnKnown12 = 12")
+("Enter = 13")
+("UnKnown14 = 14")("UnKnown15 = 15")
+("Shift = 16")
+("Ctrl = 17")
+("Alt = 18")
+("Pause = 19")
+("CapsLock = 20")
+("UnKnown21 = 21")("UnKnown22 = 22")("UnKnown23 = 23")("UnKnown24 = 24")("UnKnown25 = 25")("UnKnown26 = 26")
+("Esc = 27")
+("UnKnown28 = 28")("UnKnown29 = 29")("UnKnown30 = 30")("UnKnown31 = 31")
+("Spase = 32")
+("PageUp = 33")
+("PageDown = 34")
+("End = 35")
+("Home = 36")
+("ArrowLeft = 37")
+("ArrowUp = 38")
+("ArrowRight = 39")
+("ArrowDown = 40")
+("UnKnown41 = 41")("UnKnown42 = 42")("UnKnown43 = 43")
+("PrtSc = 44")
+("Insert = 45")
+("Delete = 46")
+("UnKnown47 = 47")
+("Num0 = 48")("Num1 = 49")("Num2 = 50")("Num3 = 51")("Num4 = 52")("Num5 = 53")("Num6 = 54")("Num7 = 55")("Num8 = 56")("Num9 = 57")
+("UnKnown58 = 58")("UnKnown59 = 59")("UnKnown60 = 60")("UnKnown61 = 61")("UnKnown62 = 62")("UnKnown63 = 63")("UnKnown64 = 64")
+("A = 65")("B = 66")("C = 67")("D = 68")("E = 69")("F = 70")("G = 71")("H = 72")
+("I = 73")("J = 74")("K = 75")("L = 76")("M = 77")("N = 78")("O = 79")("P = 80")
+("Q = 81")("R = 82")("S = 83")("T = 84")("U = 85")("V = 86")("W = 87")("X = 88")("Y = 89")("Z = 90")
+("WinLeft = 91")
+("WinRight = 92")
+("App = 93")
+("UnKnown94 = 94")("UnKnown95 = 95")
+("NumPad0 = 96")("NumPad1 = 97")("NumPad2 = 98")("NumPad3 = 99")("NumPad4 = 100")
+("NumPad5 = 101")("NumPad6 = 102")("NumPad7 = 103")("NumPad8 = 104")("NumPad9 = 105")
+("NumPadStar = 106")("NumPadPlus = 107")("UnKnown108 = 108")
+("NumPadMinus = 109")("NumPadPoint = 110")("NumPadSlash = 111")
+("F1 = 112")("F2 = 113")("F3 = 114")("F4 = 115")("F5 = 116")("F6 = 117")("F7 = 118")("F8 = 119")("F9 = 120")("F10 = 121")("F11 = 122")("F12 = 123")
+("UnKnown124 = 124")("UnKnown125 = 125")("UnKnown126 = 126")("UnKnown127 = 127")
+("UnKnown128 = 128")("UnKnown129 = 129")("UnKnown130 = 130")("UnKnown131 = 131")
+("UnKnown132 = 132")("UnKnown133 = 133")("UnKnown134 = 134")("UnKnown135 = 135")
+("UnKnown136 = 136")("UnKnown137 = 137")("UnKnown138 = 138")("UnKnown139 = 139")
+("UnKnown140 = 140")("UnKnown141 = 141")("UnKnown142 = 142")("UnKnown143 = 143")
+("NumLock = 144")
+("ScrollLock = 145")
+("UnKnown146 = 146")("UnKnown147 = 147")("UnKnown148 = 148")("UnKnown149 = 149")
+("UnKnown150 = 150")("UnKnown151 = 151")("UnKnown152 = 152")("UnKnown153 = 153")
+("PrintScreen = 154")
+("UnKnown156 = 156")
+("Meta = 157")
+("UnKnown158 = 158")("UnKnown159 = 159")("UnKnown160 = 160")("UnKnown161 = 161")
+("UnKnown162 = 162")("UnKnown163 = 163")("UnKnown164 = 164")("UnKnown165 = 165")
+("UnKnown166 = 166")("UnKnown167 = 167")("UnKnown168 = 168")("UnKnown169 = 169")
+("UnKnown170 = 170")("UnKnown171 = 171")("UnKnown172 = 172")("UnKnown173 = 173")
+("UnKnown174 = 174")("UnKnown175 = 175")("UnKnown176 = 176")("UnKnown177 = 177")
+("UnKnown178 = 178")("UnKnown179 = 179")("UnKnown180 = 180")("UnKnown181 = 181")
+("UnKnown182 = 182")("UnKnown183 = 183")("UnKnown184 = 184")("UnKnown185 = 185")
+("Semicolon = 186")
+("Equally = 187")
+("Сomma = 188")
+("Hyphen = 189")
+("Point = 190")
+("Slash = 191")
+("WavyLine = 192")
+("UnKnown193 = 193")("UnKnown194 = 194")("UnKnown195 = 195")("UnKnown196 = 196")
+("UnKnown197 = 197")("UnKnown198 = 198")("UnKnown199 = 199")("UnKnown200 = 200")
+("UnKnown201 = 201")("UnKnown202 = 202")("UnKnown203 = 203")("UnKnown204 = 204")
+("UnKnown205 = 205")("UnKnown206 = 206")("UnKnown207 = 207")("UnKnown208 = 208")
+("UnKnown209 = 209")("UnKnown210 = 210")("UnKnown211 = 211")("UnKnown212 = 212")
+("UnKnown213 = 213")("UnKnown214 = 214")("UnKnown215 = 215")("UnKnown216 = 216")
+("UnKnown217 = 217")("UnKnown218 = 218")
+("SquareBrackets = 219")
+("UnSlash = 220")
+("UnSquareBrackets = 221")
+("Quotation = 222")
+("UnKnown223 = 223")("UnKnown224 = 224")("UnKnown225 = 225")("UnKnown226 = 226")
+("UnKnown227 = 227")("UnKnown228 = 228")("UnKnown229 = 229")("UnKnown230 = 230")
+("UnKnown231 = 231")("UnKnown232 = 232")("UnKnown233 = 233")("UnKnown234 = 234")
+("UnKnown235 = 235")("UnKnown236 = 236")("UnKnown237 = 237")("UnKnown238 = 238")
+("UnKnown239 = 239")("UnKnown240 = 240")("UnKnown241 = 241")("UnKnown242 = 242")
+("UnKnown243 = 243")("UnKnown244 = 244")("UnKnown245 = 245")("UnKnown246 = 246")
+("UnKnown247 = 247")("UnKnown248 = 248")("UnKnown249 = 249")("UnKnown250 = 250")
+("UnKnown251 = 251")("UnKnown252 = 252")("UnKnown253 = 253")("UnKnown254 = 254")("UnKnown255 = 255")
+;
+#>
+
+daaSDFGHJKLTH
+<#+   // Start of class feature block
+//Создаем новый тип данных
+public delegate MyDel MyDel(System.String _STR);
+//Компонуем через делегаты и лямбда вырашение СамоВозвращаемую функцию
+//Это патерн из JavaScript
+//Ближайшая аналогия из JavaScript это СамоВызываемая Или Анонимная функция.
+public MyDel Get(string __STR)
+{
+    string __Name =__STR.Split('=')[0];
+    int __Value = 0;
+    if(System.Int32.TryParse(__STR.Split('=')[1],out __Value));
+
+    MyDel qwe = null;
+    qwe = (string ___STR) => 
+    { 
+        string _Name =___STR.Split('=')[0];
+        int _Value = 0;
+        if(System.Int32.TryParse(__STR.Split('=')[1],out __Value));
+
+        #>
+        struct VK_<#=_Name#> :VirtualKey { VK_<#=_Name#>() { p_Name = "VK_<#=_Name#>";p_Value = <#= _Value#>; };};
+        <#+
+    return qwe; 
+    };
+    return qwe(__Name);
+}
+#>

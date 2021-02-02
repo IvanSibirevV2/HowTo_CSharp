@@ -1,0 +1,15 @@
+﻿Привет мир
+По идее шаблон можно вызвать из программного  кода, пердаврительно указав в настройке шаблона
+пространство имен пользовательского инструмента
+ var qwe= (new T4.SHarpDev.TextTemplate5());
+ qwe.TransformText();
+System.IO.File.WriteAllText("outputPage.html", pageContent);
+
+
+Только вот это не прокатит, так как шаблон лежит в пространстве имен
+Microsoft.VisualStudio.TextTemplating49AFAB3E371189B3DA72F058E684CE769D26A963C86F3BEB6A2585A256E9DAE38FC0CCD629F602E2E7DB4206017FB67021EDC6AE2C9E9F6178F6A2C2F0D11977.GeneratedTextTransformation
+И это пространство имен не существуем в проекте, ну вообще никак
+Полагаю это все работатет только для RuntimeTextTemplate1
+//Если Вы добрались до этой строки, то это означает дальше можно смотерть
+TextTemplate5.2/RuntimeTextTemplate1.tt
+А также прилагую архив проекта TT в котором можно посмотреть как оно внутри работатет... T4Toolbox-master
