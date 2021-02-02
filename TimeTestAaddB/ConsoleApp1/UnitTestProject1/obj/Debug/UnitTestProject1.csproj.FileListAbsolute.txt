@@ -1,0 +1,17 @@
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\D\Git_Hub\HowTo_CSharp\TimeTestAaddB\ConsoleApp1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
