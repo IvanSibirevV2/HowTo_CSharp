@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS1634: После предупреждения #pragma ожидается "disable" или "restore"
+dotnet_diagnostic.CS1634.severity = warning

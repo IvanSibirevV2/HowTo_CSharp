@@ -1,0 +1,15 @@
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\bin\Debug\LinQ.exe.config
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\bin\Debug\LinQ.exe
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\bin\Debug\LinQ.pdb
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\bin\Debug\20200304_1211_ArgentumCore.exe
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\bin\Debug\20200304_1211_ArgentumCore.pdb
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\bin\Debug\20200304_1211_ArgentumCore.exe.config
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\obj\Debug\LinQ.csprojAssemblyReference.cache
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\obj\Debug\LinQ.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\obj\Debug\LinQ.csproj.CopyComplete
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\obj\Debug\LinQ.exe
+C:\D\Git_Hub\HowTo_C_Sharp_LinQ\LinQ\LinQ\obj\Debug\LinQ.pdb
+C:\D\Git_Hub\HowTo_CSharp\LinQ\LinQ_\LinQ\obj\Debug\LinQ.csprojAssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\LinQ\LinQ_\LinQ\obj\Debug\LinQ.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\LinQ\LinQ_\LinQ\obj\Debug\LinQ.exe
+C:\D\Git_Hub\HowTo_CSharp\LinQ\LinQ_\LinQ\obj\Debug\LinQ.pdb
