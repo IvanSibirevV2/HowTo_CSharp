@@ -70,7 +70,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Git_YDisk\004_ArgeCode_2_Git3\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore.csproj">
+    <ProjectReference Include="..\..\..\..\..\Git_YDisk\004_ArgeCode_2_Git3\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore.csproj">
       <Project>{631319b0-ff4c-4bc1-9396-6814330d4c0b}</Project>
       <Name>20200304_1211_ArgentumCore</Name>
     </ProjectReference>

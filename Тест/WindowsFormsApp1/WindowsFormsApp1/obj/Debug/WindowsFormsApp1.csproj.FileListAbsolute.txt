@@ -1,0 +1,10 @@
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\D\Git_Hub\HowTo_CSharp\Тест\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

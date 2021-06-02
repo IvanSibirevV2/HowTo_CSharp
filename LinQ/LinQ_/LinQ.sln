@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20200304_1211_ArgentumCore", "..\..\..\Git_YDisk\004_ArgeCode_2_Git3\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore.csproj", "{631319B0-FF4C-4BC1-9396-6814330D4C0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20200304_1211_ArgentumCore", "..\..\..\..\Git_YDisk\004_ArgeCode_2_Git3\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore.csproj", "{631319B0-FF4C-4BC1-9396-6814330D4C0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
