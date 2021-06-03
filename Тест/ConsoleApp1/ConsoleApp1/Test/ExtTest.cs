@@ -18,7 +18,6 @@ namespace ConsoleApp1.ListCog
 }
 namespace ConsoleApp1
 {
-   
     public static class ExtTest
     {
         public static int Show_Console(Cog _Cog)
@@ -41,13 +40,9 @@ namespace ConsoleApp1
             }
             return 0;
         }
-        /// <summary>
-        /// Проверка всего теста теста
-        /// </summary>
+        /// <summary>Проверка всего теста теста</summary>
         public static System.Double CheckTest_Persent(Cog _Cog){return 100*CheckTest_UserSet(_Cog)/ CheckTest_IsTrue(_Cog);}
-        /// <summary>
-        /// Подсчитать все пользлвательские выборы
-        /// </summary>
+        /// <summary>Подсчитать все пользлвательские выборы</summary>
         public static int CheckTest_UserSet(Cog _Cog)
         {
             if (_Cog.ListCog.Count == 0)
@@ -56,9 +51,7 @@ namespace ConsoleApp1
             _Cog.ListCog.ForEach(a => i = i + CheckTest_UserSet(a));
             return i;
         }
-        /// <summary>
-        /// Подсчитать все ответы которые программа считает верными
-        /// </summary>
+        /// <summary>Подсчитать все ответы которые программа считает верными</summary>
         public static int CheckTest_IsTrue(Cog _Cog)
         {
             if (_Cog.ListCog.Count == 0){ if (_Cog.IsTrue) { return 1; } else { return 0; } }
@@ -74,7 +67,6 @@ namespace ConsoleApp1
             System.Console.WriteLine("Ответ");
             //System.Console.WriteLine(CheckTest_UserSet(_Cog));
             System.Console.WriteLine(CheckTest_Persent(_Cog));
-            
         }
     }
 }

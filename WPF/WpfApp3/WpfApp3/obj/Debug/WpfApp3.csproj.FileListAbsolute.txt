@@ -1,0 +1,15 @@
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\App.g.cs
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\MainWindow.baml
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
