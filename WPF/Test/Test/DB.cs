@@ -12,11 +12,25 @@ namespace Test
         public static System.String ConnectionString = @"Data Source=DB_Test.db";
         public static void Init() 
         {
-            if (new SQL("SELECT Name FROM sqlite_master;").ExecuteReader().Where(a => a[0].ToString() == "Answer").Count().Set(a => { var qwe = a;
-                ;
-            }) == 0)
+            if (new SQL("SELECT Name FROM sqlite_master;").ExecuteReader().Where(a => a[0].ToString() == "Answer").Count() == 0)
             {
-                new SQL("CREATE TABLE 'Answer'('Id'    INTEGER NOT NULL UNIQUE,'Text'  TEXT NOT NULL,PRIMARY KEY('Id' AUTOINCREMENT));").Execute();
+            
+            }
+            if (new SQL("SELECT Name FROM sqlite_master;").ExecuteReader().Where(a => a[0].ToString() == "Question").Count() == 0)
+            {
+
+            }
+            if (new SQL("SELECT Name FROM sqlite_master;").ExecuteReader().Where(a => a[0].ToString() == "Test").Count() == 0)
+            {
+
+            }
+            if (new SQL("SELECT Name FROM sqlite_master;").ExecuteReader().Where(a => a[0].ToString() == "QuestionAnswer").Count() == 0)
+            {
+                new SQL("CREATE TABLE 'QuestionAnswer'('Id'    INTEGER NOT NULL UNIQUE,'QuestionId'    INTEGER NOT NULL,'AnswerId'  INTEGER NOT NULL,FOREIGN KEY('QuestionId') REFERENCES 'Question'('Id'),FOREIGN KEY('AnswerId') REFERENCES 'Answer'('Id'),PRIMARY KEY('Id' AUTOINCREMENT));").Execute();
+            }
+            if (new SQL("SELECT Name FROM sqlite_master;").ExecuteReader().Where(a => a[0].ToString() == "TestQuestion").Count() == 0)
+            {
+                new SQL("CREATE TABLE 'TestQuestion'('Id'    INTEGER NOT NULL UNIQUE,'QuestionId'    INTEGER NOT NULL,'TestId'    INTEGER NOT NULL,FOREIGN KEY('TestId') REFERENCES 'Test'('Id'),FOREIGN KEY('QuestionId') REFERENCES 'Question'('Id'),PRIMARY KEY('Id' AUTOINCREMENT));").Execute();
             }
         }
     }
