@@ -1,4 +1,0 @@
-CREATE TABLE покупатели (
-    ID  INTEGER PRIMARY KEY AUTOINCREMENT,
-    ФИО TEXT
-);

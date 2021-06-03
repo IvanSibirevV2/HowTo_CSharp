@@ -1,1 +1,0 @@
-delete from овощи where овощи.ID>=4;

@@ -52,11 +52,10 @@ namespace WpfApp1
             (new SQL("SELECT Id,Text from Test;").ExecuteReader())
                 .Select(ListString_Test =>
                 {
-                    ;
                     Expander _Test = new Expander() {
                         Header = ListString_Test[1],
                         Content = (new StackPanel()).Set(_StackPanel_Question=> {
-
+                            /*
                             new SQL(
                                 "SELECT Question.Id, Question.Text from TestQuestion LEFT JOIN  Question"
                                 + " WHERE(TestQuestion.TestId = " + ListString_Test[0] + ") and(TestQuestion.QuestionId = Question.Id)"
@@ -65,13 +64,16 @@ namespace WpfApp1
                                 Expander _Question = new Expander()
                                 { 
                                     Header = ListString_Question[1],
-                                    Content = new StackPanel()
+                                    Content = (new StackPanel()).Set(_StackPanel_Answer =>
+                                    { 
+
+                                    })
                                 };
                                 return _Question;
                             })
                             .ToList().ForEach(a=>_StackPanel_Question.Children.Add(a))
                             ;
-                            
+                            */
                         })
                     };
                     /*

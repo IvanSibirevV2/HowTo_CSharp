@@ -37,7 +37,10 @@ namespace WpfApp1
     public class SQL
     {
 
-        private SQLiteConnection connection = new SQLiteConnection("Data Source=DB_Test.db");
+        private SQLiteConnection connection =
+            //new SQLiteConnection("Data Source=DB_Test.db")
+            new SQLiteConnection("Data Source=DB_Test2")
+            ;
         private System.String CommandText = "";
         public SQL() { }
         public SQL(System.String _CommandText)
