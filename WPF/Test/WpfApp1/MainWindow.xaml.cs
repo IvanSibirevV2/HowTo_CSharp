@@ -47,56 +47,49 @@ namespace WpfApp1
             */
             //< TextBlock > Однажды в студеную зимнюю пору...</ TextBlock >
         }
+        private System.Windows.Controls.StackPanel GetAnswer_StackPanel(string TextId) 
+        {
+            StackPanel _StackPanel = new StackPanel();
+            new SQL(
+                "SELECT Answer.ID, Answer.Text, Answer.IsTrue  From QuestionAnswer LEFT JOIN Answer WHERE QuestionAnswer.QuestionId = " + TextId + " AND Answer.Id = QuestionAnswer.AnswerId"
+                
+                ).ExecuteReader()
+                .Select(ListString_Question =>
+                {
+                    WrapPanel _WrapPanel = new WrapPanel();
+                    _WrapPanel.Children.Add(new TextBlock() { Text = ListString_Question[0]+" "+ListString_Question[1] });
+                    _WrapPanel.Children.Add(new CheckBox());
+                    return _WrapPanel;
+                    //return new TextBlock() { Text = ListString_Question[0] + " " + ListString_Question[1] };
+                }
+                ).ToList().ForEach(a => _StackPanel.Children.Add(a))
+            ;
+            return _StackPanel;
+        }
+        private System.Windows.Controls.StackPanel GetQuestions_StackPanel(string TextId) 
+        {
+            StackPanel _StackPanel = new StackPanel();
+            new SQL("SELECT Question.Id, Question.Text from TestQuestion LEFT JOIN  Question  WHERE(TestQuestion.TestId = " + TextId + ") and(TestQuestion.QuestionId = Question.Id)").ExecuteReader()
+                .Select(ListString_Question => 
+                    new Expander()
+                    {
+                        Header = ListString_Question[0]+" "+ ListString_Question[1],
+                        Content= GetAnswer_StackPanel(ListString_Question[0])
+                    }
+                ).ToList().ForEach(a => _StackPanel.Children.Add(a))
+            ;
+            return _StackPanel;
+        }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             (new SQL("SELECT Id,Text from Test;").ExecuteReader())
                 .Select(ListString_Test =>
-                {
-                    Expander _Test = new Expander() {
-                        Header = ListString_Test[1],
-                        Content = (new StackPanel()).Set(_StackPanel_Question=> {
-                            /*
-                            new SQL(
-                                "SELECT Question.Id, Question.Text from TestQuestion LEFT JOIN  Question"
-                                + " WHERE(TestQuestion.TestId = " + ListString_Test[0] + ") and(TestQuestion.QuestionId = Question.Id)"
-                            ).ExecuteReader()
-                            .Select(ListString_Question => {
-                                Expander _Question = new Expander()
-                                { 
-                                    Header = ListString_Question[1],
-                                    Content = (new StackPanel()).Set(_StackPanel_Answer =>
-                                    { 
-
-                                    })
-                                };
-                                return _Question;
-                            })
-                            .ToList().ForEach(a=>_StackPanel_Question.Children.Add(a))
-                            ;
-                            */
-                        })
-                    };
-                    /*
-                    new SQL(
-                        "SELECT Question.Id,Question.Text from Question LEFT JOIN TestQuestion"
-                        + "WHERE TestQuestion.TestId = 1 and TestQuestion.QuestionId = Question.Id"
-                    ).ExecuteReader()
-                    
-                    .Select(ListString_Question => {
-                        Expander _Question = new Expander();
-                        _Question.Header = ListString_Question[1];
-                        StackPanel _TestQuestion = new StackPanel();
-                        _Question.Content = _TestQuestion;
-                        return _Question;
-                    })
-                    .ToList().ForEach(a=>_TestContent.Children.Add(a));
-                    _Test.Content = _TestContent;
-
-                    */
-                    ;
-
-                    return _Test;
-                })
+                     new Expander() 
+                     {
+                        Header = ListString_Test[0]+" "+ ListString_Test[1],
+                        Content = GetQuestions_StackPanel(ListString_Test[0])
+                    }
+                )
                 .ToList().ForEach(a => p_StackPanel.Children.Add(a));
             ;
             /*
