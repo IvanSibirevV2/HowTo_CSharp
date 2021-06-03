@@ -39,6 +39,7 @@ namespace Test
 
         private SQLiteConnection connection = new SQLiteConnection("Data Source=DB_Test.db");
         private System.String CommandText = "";
+        
         public SQL() { }
         public SQL(System.String _CommandText)
         {
@@ -56,7 +57,8 @@ namespace Test
         public List<List<object>> ExecuteReader()
         {
             List<List<object>> ListListObject = new List<List<object>>();
-            connection.Open(); SQLiteCommand command = connection.CreateCommand();
+            connection.Open();
+            SQLiteCommand command = connection.CreateCommand();
             command.CommandText = CommandText;
             using (SQLiteDataReader reader = command.ExecuteReader())
             {

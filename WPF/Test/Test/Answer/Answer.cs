@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 
-namespace Test.Answer
+namespace Test
 {
     public class Answer
     {
@@ -15,27 +15,11 @@ namespace Test.Answer
         
         public static List<Answer>  GetOll() 
         {
-            using (var connection = new SQLiteConnection(Test.DB.ConnectionString))
-            {
-                connection.Open();
-                SQLiteCommand command = connection.CreateCommand();
-                command.CommandText = "select * from sqlite_master";
-                /*
-                using (SQLiteDataReader reader = command.ExecuteReader())
-                {
-                    if (reader.HasRows) // если есть данные
-                    {
-                        while (reader.Read())   // построчно считываем данные
-                        {
-                            var id = reader.GetValue(0);
-                            var name = reader.GetValue(1);
-                            ;
-                            Console.WriteLine($"{id} \t {name}=");
-                        }
-                    }
-                }
-                */
-            }
+            new SQL("SELECT * from Answer").ExecuteReader()
+                .ForEach(a=> {
+                    System.Console.WriteLine("*******");
+                })
+                ;
             return null;
         }
     }
