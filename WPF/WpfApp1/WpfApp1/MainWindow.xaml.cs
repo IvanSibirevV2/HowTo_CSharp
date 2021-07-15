@@ -15,24 +15,16 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
-    public class Phone
-    {
-        public string Name { get; set; }
-        public int Price { get; set; }
-
-        public override string ToString()
-        {
-            return $"Смартфон {this.Name}; цена: {this.Price}";
-        }
-    }
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        public Model.TestS p_TestS = new Model.TestS();
         public MainWindow()
         {
             InitializeComponent();
+            this.p_TestS.Init(p_StackPanel);
         }
     }
 }

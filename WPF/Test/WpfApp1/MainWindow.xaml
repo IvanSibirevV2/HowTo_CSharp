@@ -10,7 +10,7 @@
         >
     <Grid>
         <StackPanel x:Name="p_StackPanel">
+            <Button Content="Button" Click="Button_Click"/>
         </StackPanel>
-        
     </Grid>
 </Window>

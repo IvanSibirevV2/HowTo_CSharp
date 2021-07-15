@@ -1,0 +1,11 @@
+/*Програмный код раболтает в двух вариантах: первый - изменение существующих таблиц и замена их на новые;
+                                             второй - создание таблиц баз данных с нуля; Чтобы запустить этот режим - закомментируйте стороки, отмеченные как v2*/
+PRAGMA foreign_keys = 0;/*Начало транзакции*/
+/*v2*/CREATE TABLE sqlitestudio_temp_table AS SELECT * FROM Продавец;
+/*v2*/DROP TABLE Продавец;
+
+CREATE TABLE Продавец (id  INTEGER   PRIMARY KEY ASC AUTOINCREMENT UNIQUE, ФИО TEXT (26));
+/*v2*/INSERT INTO Продавец (id, ФИО) SELECT id, ФИО FROM sqlitestudio_temp_table;
+INSERT INTO Продавец (id, ФИО) VALUES (9,'QBVWE');
+/*v2*/DROP TABLE sqlitestudio_temp_table;
+PRAGMA foreign_keys = 1;/*Конец транзакции*/
