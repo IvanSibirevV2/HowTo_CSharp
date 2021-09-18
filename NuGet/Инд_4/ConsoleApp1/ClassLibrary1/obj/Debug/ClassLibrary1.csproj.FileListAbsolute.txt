@@ -1,0 +1,5 @@
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_4\ConsoleApp1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_4\ConsoleApp1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_4\ConsoleApp1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_4\ConsoleApp1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_4\ConsoleApp1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

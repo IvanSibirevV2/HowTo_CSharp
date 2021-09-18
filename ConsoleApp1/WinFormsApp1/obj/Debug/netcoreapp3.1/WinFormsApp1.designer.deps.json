@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "OpenGL.Net/0.8.4": {
+        "runtime": {
+          "lib/net461/OpenGL.Net.dll": {
+            "assemblyVersion": "0.8.4.0",
+            "fileVersion": "0.8.4.0"
+          }
+        }
+      },
+      "OpenGL.Net.WinForms/0.8.4": {
+        "dependencies": {
+          "OpenGL.Net": "0.8.4"
+        },
+        "runtime": {
+          "lib/net461/OpenGL.Net.WinForms.dll": {
+            "assemblyVersion": "0.8.4.0",
+            "fileVersion": "0.8.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpenGL.Net/0.8.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F7o2KkIrz9rrtBY7+VRgPKnf2mV8pt3h4/o/CWPt86oIocjzKTQFNo2qH4zVYSWyy/T9rS0xBpu9t75MS6wM8Q==",
+      "path": "opengl.net/0.8.4",
+      "hashPath": "opengl.net.0.8.4.nupkg.sha512"
+    },
+    "OpenGL.Net.WinForms/0.8.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6iUB658zmaQkVMWaIl/w/7i+MGmBdtJibZV7LFOBbt40RTC1GxEEv9C/g81613gN1KeLLOSAU+cx3TUKtzrIZA==",
+      "path": "opengl.net.winforms/0.8.4",
+      "hashPath": "opengl.net.winforms.0.8.4.nupkg.sha512"
+    }
+  }
+}

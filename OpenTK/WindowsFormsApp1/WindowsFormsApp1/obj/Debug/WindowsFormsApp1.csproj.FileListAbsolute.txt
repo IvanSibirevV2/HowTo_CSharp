@@ -1,0 +1,50 @@
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.dll
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.dll
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.pdb
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.xml
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.pdb
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.xml
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\SibNout2020\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.dll
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.dll
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.pdb
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.xml
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.pdb
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.xml
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\D\YandexDisk\Преподавание2021_V2\Обменка\Разработка программных модулей\Инд_3\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.dll
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.dll
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.pdb
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.xml
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.pdb
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OpenTK.GLControl.xml
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\D\Git_Hub\HowTo_CSharp\OpenTK\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache

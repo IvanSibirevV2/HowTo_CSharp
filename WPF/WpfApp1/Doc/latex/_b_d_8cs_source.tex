@@ -1,0 +1,96 @@
+\hypertarget{_b_d_8cs_source}{}\doxysection{BD.\+cs}
+\label{_b_d_8cs_source}\index{C:/D/Git\_Hub/HowTo\_CSharp/WPF/WpfApp1/WpfApp1/BD.cs@{C:/D/Git\_Hub/HowTo\_CSharp/WPF/WpfApp1/WpfApp1/BD.cs}}
+\mbox{\hyperlink{_b_d_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00001}00001 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00002}00002 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00003}00003 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00004}00004 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00005}00005 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00006}00006 }
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00007}00007 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_wpf_app1}{WpfApp1}}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00008}00008 \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00009}00009     \textcolor{keyword}{using} System.Data.\mbox{\hyperlink{class_system_1_1_data_1_1_s_q_lite}{SQLite}};}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00010}00010     \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keyword}{class }DB}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00011}00011     \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00012}00012         \textcolor{keyword}{public} \textcolor{keyword}{static} System.String ConnectionString = \textcolor{stringliteral}{@"{}Data Source=DB\_Test.db"{}};}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00013}00013         \textcolor{keyword}{public} \textcolor{keyword}{static} \textcolor{keywordtype}{void} Init()}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00014}00014         \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00015}00015             \textcolor{keywordflow}{if} (\textcolor{keyword}{new} SQL(\textcolor{stringliteral}{"{}SELECT Name FROM sqlite\_master;"{}}).ExecuteReader().Where(a => a[0].ToString() == \textcolor{stringliteral}{"{}Answer"{}}).Count() == 0)}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00016}00016             \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00017}00017 }
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00018}00018             \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00019}00019             \textcolor{keywordflow}{if} (\textcolor{keyword}{new} SQL(\textcolor{stringliteral}{"{}SELECT Name FROM sqlite\_master;"{}}).ExecuteReader().Where(a => a[0].ToString() == \textcolor{stringliteral}{"{}Question"{}}).Count() == 0)}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00020}00020             \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00021}00021 }
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00022}00022             \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00023}00023             \textcolor{keywordflow}{if} (\textcolor{keyword}{new} SQL(\textcolor{stringliteral}{"{}SELECT Name FROM sqlite\_master;"{}}).ExecuteReader().Where(a => a[0].ToString() == \textcolor{stringliteral}{"{}Test"{}}).Count() == 0)}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00024}00024             \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00025}00025 }
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00026}00026             \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00027}00027             \textcolor{keywordflow}{if} (\textcolor{keyword}{new} SQL(\textcolor{stringliteral}{"{}SELECT Name FROM sqlite\_master;"{}}).ExecuteReader().Where(a => a[0].ToString() == \textcolor{stringliteral}{"{}QuestionAnswer"{}}).Count() == 0)}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00028}00028             \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00029}00029                 \textcolor{keyword}{new} SQL(\textcolor{stringliteral}{"{}CREATE TABLE 'QuestionAnswer'('Id'    INTEGER NOT NULL UNIQUE,'QuestionId'    INTEGER NOT NULL,'AnswerId'  INTEGER NOT NULL,FOREIGN KEY('QuestionId') REFERENCES 'Question'('Id'),FOREIGN KEY('AnswerId') REFERENCES 'Answer'('Id'),PRIMARY KEY('Id' AUTOINCREMENT));"{}}).Execute();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00030}00030             \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00031}00031             \textcolor{keywordflow}{if} (\textcolor{keyword}{new} SQL(\textcolor{stringliteral}{"{}SELECT Name FROM sqlite\_master;"{}}).ExecuteReader().Where(a => a[0].ToString() == \textcolor{stringliteral}{"{}TestQuestion"{}}).Count() == 0)}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00032}00032             \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00033}00033                 \textcolor{keyword}{new} SQL(\textcolor{stringliteral}{"{}CREATE TABLE 'TestQuestion'('Id'    INTEGER NOT NULL UNIQUE,'QuestionId'    INTEGER NOT NULL,'TestId'    INTEGER NOT NULL,FOREIGN KEY('TestId') REFERENCES 'Test'('Id'),FOREIGN KEY('QuestionId') REFERENCES 'Question'('Id'),PRIMARY KEY('Id' AUTOINCREMENT));"{}}).Execute();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00034}00034             \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00035}00035         \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00036}00036     \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00037}\mbox{\hyperlink{class_wpf_app1_1_1_s_q_l}{00037}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_wpf_app1_1_1_s_q_l}{SQL}}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00038}00038     \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00039}00039         \textcolor{keyword}{private} SQLiteConnection connection =}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00040}00040             \textcolor{comment}{//new SQLiteConnection("{}Data Source=DB\_Test.db"{})}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00041}00041             \textcolor{keyword}{new} SQLiteConnection(\textcolor{stringliteral}{"{}Data Source=DB\_Test2"{}})}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00042}00042             ;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00043}00043         \textcolor{keyword}{private} System.String CommandText = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00044}\mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_a3d307e284d7a2c56d3d01709bc4bf6b1}{00044}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_a3d307e284d7a2c56d3d01709bc4bf6b1}{SQL}}() \{ \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00049}\mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_a835c37e4a1dd586ae58ee07eff639358}{00049}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_a835c37e4a1dd586ae58ee07eff639358}{SQL}}(System.String \_CommandText)}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00050}00050         \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00051}00051             CommandText = \_CommandText;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00052}00052 }
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00053}00053         \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00054}00054 }
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00055}\mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_a8a4f52a6d0168202c54d92d131b5331f}{00055}}         \textcolor{keyword}{public} \textcolor{keywordtype}{void} \mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_a8a4f52a6d0168202c54d92d131b5331f}{Execute}}()}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00056}00056         \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00057}00057             connection.Open(); SQLiteCommand command = connection.CreateCommand();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00058}00058             command.CommandText = CommandText;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00059}00059             command.ExecuteNonQuery();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00060}00060             connection.Close();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00061}00061         \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00066}\mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_acd86c877de0e4332c2011aea171e91d5}{00066}}         \textcolor{keyword}{public} List<List<String>> \mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_acd86c877de0e4332c2011aea171e91d5}{ExecuteReader}}()}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00067}00067         \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00068}00068             List<List<String>> ListListString = \textcolor{keyword}{new} List<List<String>>();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00069}00069             connection.Open(); SQLiteCommand command = connection.CreateCommand();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00070}00070             command.CommandText = CommandText;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00071}00071             \textcolor{keyword}{using} (SQLiteDataReader reader = command.ExecuteReader())}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00072}00072             \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00073}00073                 \textcolor{keywordflow}{if} (reader.HasRows) \textcolor{comment}{// если есть данные}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00074}00074                 \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00075}00075                     \textcolor{keywordflow}{while} (reader.Read())   \textcolor{comment}{// построчно считываем данные}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00076}00076                     \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00077}00077                         List<String> ListObject = \textcolor{keyword}{new} List<String>();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00078}00078                         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < reader.FieldCount; i++)}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00079}00079                             ListObject.Add(reader.GetValue(i).ToString());}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00080}00080                         ListListString.Add(ListObject);}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00081}00081                     \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00082}00082                 \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00083}00083             \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00084}00084             connection.Close();}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00085}00085 }
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00086}00086             ListListString.ForEach(a => \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00087}00087                 a.ForEach(b => \{}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00088}00088                     System.Console.Write(b); System.Console.Write(\textcolor{stringliteral}{"{} \#\# "{}});}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00089}00089                 \}); System.Console.WriteLine(\textcolor{stringliteral}{"{}"{}});}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00090}00090                 System.Console.WriteLine(\textcolor{stringliteral}{"{}\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#"{}});}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00091}00091             \});}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00092}00092             ;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00093}00093 }
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00094}00094             \textcolor{keywordflow}{return} ListListString;}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00095}00095         \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00096}00096         \textcolor{comment}{//SELECT name FROM my\_db.sqlite\_master WHERE type = 'table';}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00097}00097     \}}
+\DoxyCodeLine{\Hypertarget{_b_d_8cs_source_l00098}00098 \}}
+
+\end{DoxyCode}

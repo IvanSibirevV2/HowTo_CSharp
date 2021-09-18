@@ -15,7 +15,6 @@ namespace WpfApp1.Model
         //////////////////////////////////////////
         //public View_ View = null;
         public WrapPanel _View = null;
-        
             
         public CheckBox CheckBox = null;
         public TextBlock TextBlock = null;

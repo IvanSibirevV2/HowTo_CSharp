@@ -1,0 +1,56 @@
+\hypertarget{_question_s_8cs_source}{}\doxysection{Question\+S.\+cs}
+\label{_question_s_8cs_source}\index{C:/D/Git\_Hub/HowTo\_CSharp/WPF/WpfApp1/WpfApp1/Model/QuestionS.cs@{C:/D/Git\_Hub/HowTo\_CSharp/WPF/WpfApp1/WpfApp1/Model/QuestionS.cs}}
+\mbox{\hyperlink{_question_s_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00001}00001 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00002}00002 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00003}00003 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00004}00004 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00005}00005 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00006}00006 }
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00007}00007 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_wpf_app1_1_1_model}{WpfApp1.Model}}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00008}00008 \{}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00009}00009     \textcolor{keyword}{using} System.Windows.\mbox{\hyperlink{namespace_system_1_1_windows_1_1_controls}{Controls}};}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00010}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s}{00010}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s}{QuestionS}}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00011}00011     \{}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00013}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a25530003f83f3d51cf6b2589de845bf5}{00013}}         \textcolor{keyword}{public} StackPanel \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a25530003f83f3d51cf6b2589de845bf5}{\_View}}= \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00014}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a18226c5fa8dafced648310baa3882465}{00014}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a18226c5fa8dafced648310baa3882465}{Button}} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a18226c5fa8dafced648310baa3882465}{Button}} = \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00015}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_aa810dc5550da1f54c2dafe125b92c061}{00015}}         \textcolor{keyword}{public} List<Question> \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_aa810dc5550da1f54c2dafe125b92c061}{ListQuestion}} = \textcolor{keyword}{new} List<Question>();}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00020}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a7e7dd0ffbaae6ff4e17c8924a5653270}{00020}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s}{QuestionS}} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a7e7dd0ffbaae6ff4e17c8924a5653270}{Init}}(\textcolor{keywordtype}{int} Id)}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00021}00021         \{}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00022}00022             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a25530003f83f3d51cf6b2589de845bf5}{\_View}} = \textcolor{keyword}{new} StackPanel();}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00023}00023             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a18226c5fa8dafced648310baa3882465}{Button}} = \textcolor{keyword}{new} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a18226c5fa8dafced648310baa3882465}{Button}}();}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00024}00024             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a18226c5fa8dafced648310baa3882465}{Button}}.Content = \textcolor{stringliteral}{"{}Проверить тест"{}};}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00025}00025             List <List<string>> \_ListListString = \textcolor{keyword}{new} \mbox{\hyperlink{class_wpf_app1_1_1_s_q_l}{SQL}}(}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00026}00026                 \textcolor{stringliteral}{"{}SELECT Question.Id, Question.Text from TestQuestion"{}} +}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00027}00027                 \textcolor{stringliteral}{"{} LEFT JOIN  Question  WHERE(TestQuestion.TestId = "{}} + Id + \textcolor{stringliteral}{"{})"{}} +}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00028}00028                 \textcolor{stringliteral}{"{} and(TestQuestion.QuestionId = Question.Id)"{}}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00029}00029                 )}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00030}00030                 .\mbox{\hyperlink{class_wpf_app1_1_1_s_q_l_acd86c877de0e4332c2011aea171e91d5}{ExecuteReader}}();}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00031}00031             ;}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00032}00032             \_ListListString.ForEach(\_QuestionRow=>}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00033}00033                 \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_aa810dc5550da1f54c2dafe125b92c061}{ListQuestion}}.Add(\textcolor{keyword}{new} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question}{Question}}(Convert.ToInt32(\_QuestionRow[0]), \_QuestionRow[1]).\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_ac15d129ba45666fbbe0e20bda5f96055}{Init}}())}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00034}00034             );}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00035}00035             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_aa810dc5550da1f54c2dafe125b92c061}{ListQuestion}}.ForEach(\_Question =>\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_s_a25530003f83f3d51cf6b2589de845bf5}{\_View}}.Children.Add(\_Question.\_View));}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00036}00036             \textcolor{keywordflow}{return} \textcolor{keyword}{this};}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00037}00037         \}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00038}00038 }
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00039}00039         }
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00040}00040 }
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00041}00041         \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00042}00042 \textcolor{comment}{         }}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00043}00043 \textcolor{comment}{         }}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00044}00044 \textcolor{comment}{            }}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00045}00045 \textcolor{comment}{                .Select(ListString\_Question => }}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00046}00046 \textcolor{comment}{                    new Expander()}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00047}00047 \textcolor{comment}{                    \{}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00048}00048 \textcolor{comment}{                        Header = ListString\_Question[0]+"{} "{}+ ListString\_Question[1],}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00049}00049 \textcolor{comment}{                        Content= GetAnswer\_StackPanel(ListString\_Question[0])}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00050}00050 \textcolor{comment}{                    \}}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00051}00051 \textcolor{comment}{                ).ToList().ForEach(a => \_StackPanel.Children.Add(a))}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00052}00052 \textcolor{comment}{            ;}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00053}00053 \textcolor{comment}{         */}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00054}00054     \}}
+\DoxyCodeLine{\Hypertarget{_question_s_8cs_source_l00055}00055 \}}
+
+\end{DoxyCode}

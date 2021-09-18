@@ -21,6 +21,9 @@ namespace WpfApp1
     public partial class MainWindow : Window
     {
         public Model.TestS p_TestS = new Model.TestS();
+        /// <summary>
+        /// Главная форма
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();

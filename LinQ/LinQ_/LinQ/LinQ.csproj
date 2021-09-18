@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="20200304_1211_ArgentumCore, Version=0.9.0.286, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\20200304_1211_ArgentumCore.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -68,12 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\Git_YDisk\004_ArgeCode_2_Git3\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore\20200304_1211_ArgentumCore.csproj">
-      <Project>{631319b0-ff4c-4bc1-9396-6814330d4c0b}</Project>
-      <Name>20200304_1211_ArgentumCore</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -36,13 +36,16 @@ namespace WpfApp1
     }
     public class SQL
     {
-
         private SQLiteConnection connection =
             //new SQLiteConnection("Data Source=DB_Test.db")
             new SQLiteConnection("Data Source=DB_Test2")
             ;
         private System.String CommandText = "";
         public SQL() { }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="_CommandText"></param>
         public SQL(System.String _CommandText)
         {
             CommandText = _CommandText;
@@ -56,6 +59,10 @@ namespace WpfApp1
             command.ExecuteNonQuery();
             connection.Close();
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public List<List<String>> ExecuteReader()
         {
             List<List<String>> ListListString = new List<List<String>>();

@@ -12,7 +12,7 @@ namespace Component.LINQ_to_Objects.Deferred
     /// </summary>
     public static class Test02
     {
-        [Component.Diagnostics.Att_TestLast(_year: 2020, _month: 10, _day: 05, _hour: 10, _minute: 21, _second: 0, _millisecond: 0)]
+        [Component.Diagnostics.Att_TestLast(_year: 2021, _month: 9, _day: 06, _hour: 17, _minute: 13, _second: 0, _millisecond: 0)]
         public static void Do()
         {
             System.Console.WriteLine(typeof(Component.LINQ_to_Objects.Deferred.Test02).ToString());

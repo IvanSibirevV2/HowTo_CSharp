@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C469F97C-2419-45BE-9567-5F0077DAD125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TosterLibrary_Ok1", "TosterLibrary_Ok1\TosterLibrary_Ok1.csproj", "{8B837C70-3987-4612-B1E7-6B285CB98BD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C469F97C-2419-45BE-9567-5F0077DAD125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C469F97C-2419-45BE-9567-5F0077DAD125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C469F97C-2419-45BE-9567-5F0077DAD125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C469F97C-2419-45BE-9567-5F0077DAD125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B837C70-3987-4612-B1E7-6B285CB98BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B837C70-3987-4612-B1E7-6B285CB98BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B837C70-3987-4612-B1E7-6B285CB98BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B837C70-3987-4612-B1E7-6B285CB98BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7368EEB3-8933-40CE-89C8-3911E6C5920A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "1tEJx7+Yozvv+ROM/DALHJFsUxVcS3pbYBnYCGNa0fpi8tvw7Na5YJqrr56EOd58QEwMJkKtkS9/JdQ8ljc5Sg==",
+  "success": true,
+  "projectFilePath": "C:\\D\\Git_Hub\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SibNout2020\\.nuget\\packages\\opengl.net\\0.8.4\\opengl.net.0.8.4.nupkg.sha512",
+    "C:\\Users\\SibNout2020\\.nuget\\packages\\opengl.net.winforms\\0.8.4\\opengl.net.winforms.0.8.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"OpenGL.Net 0.8.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "OpenGL.Net",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"OpenGL.Net.WinForms 0.8.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "OpenGL.Net.WinForms",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

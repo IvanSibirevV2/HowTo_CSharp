@@ -1,0 +1,38 @@
+\hypertarget{_question_8cs_source}{}\doxysection{Question.\+cs}
+\label{_question_8cs_source}\index{C:/D/Git\_Hub/HowTo\_CSharp/WPF/WpfApp1/WpfApp1/Model/Question.cs@{C:/D/Git\_Hub/HowTo\_CSharp/WPF/WpfApp1/WpfApp1/Model/Question.cs}}
+\mbox{\hyperlink{_question_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00001}00001 \textcolor{keyword}{using} System;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00002}00002 \textcolor{keyword}{using} System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00003}00003 \textcolor{keyword}{using} System.Linq;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00004}00004 \textcolor{keyword}{using} System.Text;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00005}00005 \textcolor{keyword}{using} System.Threading.Tasks;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00006}00006 \textcolor{keyword}{using} System.Windows.Controls;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00007}00007 }
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00008}00008 }
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00009}00009 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_wpf_app1_1_1_model}{WpfApp1.Model}}}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00010}00010 \{}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00014}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question}{00014}}     \textcolor{keyword}{public} \textcolor{keyword}{class }\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question}{Question}}}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00015}00015     \{}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00019}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_aca0882d3a98459ececfe323b135cc739}{00019}}         \textcolor{keyword}{public} \textcolor{keywordtype}{int} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_aca0882d3a98459ececfe323b135cc739}{Id}} = -\/1;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00023}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a05cf4a1d161e6fc9e90b605f1556a964}{00023}}         \textcolor{keyword}{public} System.String \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a05cf4a1d161e6fc9e90b605f1556a964}{Text}} = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00024}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a409b39055481c0a71c63f804e9cbd85f}{00024}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_answer_s}{AnswerS}} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_answer_s}{AnswerS}} = \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00026}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a61a2eb5694baf0cd5343c958e5c7152b}{00026}}         \textcolor{keyword}{public} Expander \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a61a2eb5694baf0cd5343c958e5c7152b}{\_View}} = \textcolor{keyword}{null};}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00027}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_ac2e8318cac4e73b81b080f55f25e3ca8}{00027}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_ac2e8318cac4e73b81b080f55f25e3ca8}{Question}}() \{ \}}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00028}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a84965550b7b17525011b63b51cb92d53}{00028}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a84965550b7b17525011b63b51cb92d53}{Question}}(\textcolor{keywordtype}{int} \_Id, System.String \_Text) }
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00029}00029         \{}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00030}00030             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_aca0882d3a98459ececfe323b135cc739}{Id}} = \_Id;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00031}00031             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a05cf4a1d161e6fc9e90b605f1556a964}{Text}} = \_Text;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00032}00032             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a61a2eb5694baf0cd5343c958e5c7152b}{\_View}} = \textcolor{keyword}{new} Expander() \{ Header = \_Text \};}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00033}00033         \}}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00034}\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_ac15d129ba45666fbbe0e20bda5f96055}{00034}}         \textcolor{keyword}{public} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question}{Question}} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_ac15d129ba45666fbbe0e20bda5f96055}{Init}}() }
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00035}00035         \{}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00036}00036             ;}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00037}00037             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_answer_s}{AnswerS}} = \textcolor{keyword}{new} \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a409b39055481c0a71c63f804e9cbd85f}{AnswerS}}().\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_answer_s_a7dd948c67f47860bdfebff38f9d74c5b}{Init}}(\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_aca0882d3a98459ececfe323b135cc739}{Id}});}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00038}00038             \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_question_a61a2eb5694baf0cd5343c958e5c7152b}{\_View}}.Content = \mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_answer_s}{AnswerS}}.\mbox{\hyperlink{class_wpf_app1_1_1_model_1_1_answer_s_a0ca099a4417e4ec5196c1fb968a832e1}{\_View}};}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00039}00039             \textcolor{keywordflow}{return} \textcolor{keyword}{this};}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00040}00040         \}}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00041}00041     \}}
+\DoxyCodeLine{\Hypertarget{_question_8cs_source_l00042}00042 \}}
+
+\end{DoxyCode}
