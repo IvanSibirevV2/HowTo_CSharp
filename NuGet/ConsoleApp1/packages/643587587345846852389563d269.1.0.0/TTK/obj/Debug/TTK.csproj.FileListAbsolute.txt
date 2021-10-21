@@ -1,0 +1,7 @@
+C:\Users\SibNout2020\source\repos\TTK\TTK\bin\Debug\TTK.exe.config
+C:\Users\SibNout2020\source\repos\TTK\TTK\bin\Debug\TTK.exe
+C:\Users\SibNout2020\source\repos\TTK\TTK\bin\Debug\TTK.pdb
+C:\Users\SibNout2020\source\repos\TTK\TTK\obj\Debug\TTK.csproj.AssemblyReference.cache
+C:\Users\SibNout2020\source\repos\TTK\TTK\obj\Debug\TTK.csproj.CoreCompileInputs.cache
+C:\Users\SibNout2020\source\repos\TTK\TTK\obj\Debug\TTK.exe
+C:\Users\SibNout2020\source\repos\TTK\TTK\obj\Debug\TTK.pdb

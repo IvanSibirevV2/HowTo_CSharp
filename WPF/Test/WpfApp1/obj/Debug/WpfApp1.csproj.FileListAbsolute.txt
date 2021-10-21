@@ -12,7 +12,6 @@ C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateReso
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\obj\Debug\WpfApp1.exe
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\obj\Debug\WpfApp1.pdb
-C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\bin\Debug\System.Data.SQLite.xml
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\bin\Debug\EntityFramework.dll
@@ -22,3 +21,4 @@ C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\bin\Debug\System.Data.SQLite.EF6.dll
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\bin\Debug\System.Data.SQLite.Linq.dll
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\bin\Debug\EntityFramework.xml
 C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\D\Git_Hub\HowTo_CSharp\WPF\Test\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache

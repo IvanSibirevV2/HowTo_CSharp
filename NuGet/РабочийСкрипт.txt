@@ -1,0 +1,12 @@
+сделать ссылки на статьи по выкладыванию в nuget
+
+	проверить будет ли  в смд ide работать батник
+
+записать алгоритм в план 
+выполнить попытаться выложить TTK
+https://docs.microsoft.com/ru-ru/nuget/create-packages/creating-a-package
+https://docs.microsoft.com/ru-ru/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework
+
+https://docs.microsoft.com/ru-ru/nuget/reference/nuspec#optional-metadata-elements
+
+https://andrey.moveax.ru/post/tools-nuget-package-creator-reference

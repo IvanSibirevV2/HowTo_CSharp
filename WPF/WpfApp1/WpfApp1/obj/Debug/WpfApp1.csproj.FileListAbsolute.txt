@@ -1,7 +1,6 @@
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
-C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\obj\Debug\App.g.cs
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
@@ -22,3 +21,4 @@ C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\bin\Debug\System.Data.SQLite.xml
 C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\D\Git_Hub\HowTo_CSharp\WPF\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache

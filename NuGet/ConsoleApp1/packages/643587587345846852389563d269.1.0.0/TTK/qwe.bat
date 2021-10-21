@@ -1,0 +1,2 @@
+echo qwert
+pause
