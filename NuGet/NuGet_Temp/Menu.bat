@@ -1,5 +1,8 @@
 @echo off
 cd C:\D\Git_Hub\HowTo_CSharp\NuGet\NuGet_Temp
+
+
+
 call :menu.init
 :m_hgbdfksgsd
 	echo ##################################
@@ -14,7 +17,7 @@ CLS
 EXIT
 
 :menu.init
-	set menu.id=0
+	set menu.id=1
 exit /b 0
 rem w - upp
 :menu.Choice1
@@ -38,6 +41,25 @@ rem w - upp
 		if %menu.id% EQU 3 (echo * nuget pack)
 		if %menu.id% NEQ 3 (echo nuget pack)
 	)else (if %menu.id% EQU 3 nuget pack)
+	rem 4.
+	if "%1" EQU "" (
+		if %menu.id% EQU 4 (echo * nuget delete /?)
+		if %menu.id% NEQ 4 (echo nuget delete /?)
+	)else (if %menu.id% EQU 4 nuget delete /?)
+	rem 5.
+	if "%1" NEQ "" (
+		if %menu.id% EQU 5 (
+			Set /p packageID= .packageID=
+			Set /p packageVersion= .packageVersion=
+		)
+	)
+	if "%1" EQU "" (
+		if %menu.id% EQU 5 echo * nuget delete ^<packageID^> ^<packageVersion^> -apikey [...] -Source [...]
+		if %menu.id% NEQ 5 echo nuget delete ^<packageID^> ^<packageVersion^> -apikey [...] -Source [...]
+	)else (if %menu.id% EQU 5 nuget delete %PackageID% %packageVersion% -Source https://www.nuget.org/ -apikey oy2a42l6o4oyrf2onb5agpcnybjdndmevkqootw2luis4q)
+
+	::)else (if %menu.id% EQU 5 nuget delete -apikey oy2a42l6o4oyrf2onb5agpcnybjdndmevkqootw2luis4q)
+	::-apikey
 exit /b 0
 rem s - doun
 :menu.Choice2

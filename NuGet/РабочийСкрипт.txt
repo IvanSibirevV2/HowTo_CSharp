@@ -4,6 +4,7 @@
 
 записать алгоритм в план 
 выполнить попытаться выложить TTK
+https://www.nuget.org/
 https://docs.microsoft.com/ru-ru/nuget/create-packages/creating-a-package
 https://docs.microsoft.com/ru-ru/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework
 
