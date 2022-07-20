@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             System.Console.WriteLine("Привет мир");
-            System.Console.WriteLine(TTK.EXT_TTK.Get_TTK());
+            //System.Console.WriteLine(TTK.EXT_TTK.Get_TTK());
             System.Console.ReadLine();
         }
     }
