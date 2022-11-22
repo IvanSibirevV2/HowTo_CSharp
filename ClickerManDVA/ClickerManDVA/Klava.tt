@@ -73,9 +73,13 @@ public MyDel Get(string str,int code)
     #>
 #region <#=code#> <#=str#>
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
+    /// <summary><#=str#>_Down</summary><returns></returns>
     public Klava VK_<#=str#>_Down() { keybd_event(<#=code#>, 0, 0, 0); return this; }
+    /// <summary><#=str#>_Up</summary><returns></returns>
     public Klava VK_<#=str#>_Up() { keybd_event(<#=code#>, 0, 2, 0); return this; }
+    /// <summary>_Is_<#=str#>_Down</summary><returns></returns>
     public System.Boolean VK_<#=str#>_Is(){return this.Is(<#=code#>);}
+    /// <summary>if(<#=str#>_Is ){_f1();}else{_f0);}</summary><returns></returns>
     public Klava VK_<#=str#>_Is(System.Action<Klava> _f1=null, System.Action<Klava> _f0 = null) 
     {
         System.Boolean _flag = this.VK_<#=str#>_Is();
