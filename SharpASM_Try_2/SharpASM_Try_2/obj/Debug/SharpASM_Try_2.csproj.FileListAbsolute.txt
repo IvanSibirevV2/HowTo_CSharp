@@ -1,0 +1,10 @@
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\bin\Debug\SharpASM_Try_2.exe.config
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\bin\Debug\SharpASM_Try_2.exe
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\bin\Debug\SharpASM_Try_2.pdb
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\bin\Debug\Fasm.NET.dll
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\bin\Debug\Fasm.NET.xml
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\obj\Debug\SharpASM_Try_2.csproj.AssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\obj\Debug\SharpASM_Try_2.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\obj\Debug\SharpASM_Try_2.csproj.CopyComplete
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\obj\Debug\SharpASM_Try_2.exe
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_2\SharpASM_Try_2\obj\Debug\SharpASM_Try_2.pdb

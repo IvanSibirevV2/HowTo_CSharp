@@ -1,0 +1,12 @@
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\obj\Debug\SharpASM_Try_3.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\bin\Debug\SharpASM_Try_3.exe.config
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\bin\Debug\SharpASM_Try_3.exe
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\bin\Debug\SharpASM_Try_3.pdb
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\bin\Debug\Fasm.NET.dll
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\bin\Debug\Process.NET.dll
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\bin\Debug\Fasm.NET.xml
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\bin\Debug\Process.NET.pdb
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\bin\Debug\Process.NET.xml
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\obj\Debug\SharpASM_Try_3.csproj.CopyComplete
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\obj\Debug\SharpASM_Try_3.exe
+C:\D\Git_Hub\HowTo_CSharp\SharpASM_Try_3\SharpASM_Try_3\obj\Debug\SharpASM_Try_3.pdb
