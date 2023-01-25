@@ -1,0 +1,7 @@
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_Client\bin\Debug\HTTP_Client.exe.config
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_Client\bin\Debug\HTTP_Client.exe
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_Client\bin\Debug\HTTP_Client.pdb
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_Client\obj\Debug\HTTP_Client.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_Client\obj\Debug\HTTP_Client.exe
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_Client\obj\Debug\HTTP_Client.pdb
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_Client\obj\Debug\HTTP_Client.csproj.AssemblyReference.cache

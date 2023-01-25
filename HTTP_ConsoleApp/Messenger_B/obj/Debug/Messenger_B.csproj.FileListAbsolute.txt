@@ -1,0 +1,7 @@
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_B\bin\Debug\Messenger_B.exe.config
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_B\bin\Debug\Messenger_B.exe
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_B\bin\Debug\Messenger_B.pdb
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_B\obj\Debug\Messenger_B.csproj.AssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_B\obj\Debug\Messenger_B.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_B\obj\Debug\Messenger_B.exe
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_B\obj\Debug\Messenger_B.pdb

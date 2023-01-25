@@ -1,0 +1,7 @@
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_ConsoleApp\bin\Debug\HTTP_ConsoleApp.exe.config
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_ConsoleApp\bin\Debug\HTTP_ConsoleApp.exe
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_ConsoleApp\bin\Debug\HTTP_ConsoleApp.pdb
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_ConsoleApp\obj\Debug\HTTP_ConsoleApp.csproj.AssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_ConsoleApp\obj\Debug\HTTP_ConsoleApp.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_ConsoleApp\obj\Debug\HTTP_ConsoleApp.exe
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\HTTP_ConsoleApp\obj\Debug\HTTP_ConsoleApp.pdb

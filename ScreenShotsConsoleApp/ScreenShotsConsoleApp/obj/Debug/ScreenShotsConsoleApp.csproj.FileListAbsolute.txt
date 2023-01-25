@@ -1,0 +1,7 @@
+C:\D\Git_Hub\HowTo_CSharp\ScreenShotsConsoleApp\ScreenShotsConsoleApp\bin\Debug\ScreenShotsConsoleApp.exe.config
+C:\D\Git_Hub\HowTo_CSharp\ScreenShotsConsoleApp\ScreenShotsConsoleApp\bin\Debug\ScreenShotsConsoleApp.exe
+C:\D\Git_Hub\HowTo_CSharp\ScreenShotsConsoleApp\ScreenShotsConsoleApp\bin\Debug\ScreenShotsConsoleApp.pdb
+C:\D\Git_Hub\HowTo_CSharp\ScreenShotsConsoleApp\ScreenShotsConsoleApp\obj\Debug\ScreenShotsConsoleApp.csproj.AssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\ScreenShotsConsoleApp\ScreenShotsConsoleApp\obj\Debug\ScreenShotsConsoleApp.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\ScreenShotsConsoleApp\ScreenShotsConsoleApp\obj\Debug\ScreenShotsConsoleApp.exe
+C:\D\Git_Hub\HowTo_CSharp\ScreenShotsConsoleApp\ScreenShotsConsoleApp\obj\Debug\ScreenShotsConsoleApp.pdb

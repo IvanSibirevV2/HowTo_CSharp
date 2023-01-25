@@ -1,0 +1,6 @@
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_A\bin\Debug\Messenger_A.exe.config
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_A\bin\Debug\Messenger_A.exe
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_A\bin\Debug\Messenger_A.pdb
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_A\obj\Debug\Messenger_A.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_A\obj\Debug\Messenger_A.exe
+C:\D\Git_Hub\HowTo_CSharp\HTTP_ConsoleApp\Messenger_A\obj\Debug\Messenger_A.pdb

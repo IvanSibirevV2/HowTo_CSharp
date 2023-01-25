@@ -1,0 +1,7 @@
+C:\D\Git_Hub\HowTo_CSharp\SharpASM\SharpASM\bin\Debug\SharpASM.exe.config
+C:\D\Git_Hub\HowTo_CSharp\SharpASM\SharpASM\bin\Debug\SharpASM.exe
+C:\D\Git_Hub\HowTo_CSharp\SharpASM\SharpASM\bin\Debug\SharpASM.pdb
+C:\D\Git_Hub\HowTo_CSharp\SharpASM\SharpASM\obj\Debug\SharpASM.csproj.AssemblyReference.cache
+C:\D\Git_Hub\HowTo_CSharp\SharpASM\SharpASM\obj\Debug\SharpASM.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\HowTo_CSharp\SharpASM\SharpASM\obj\Debug\SharpASM.exe
+C:\D\Git_Hub\HowTo_CSharp\SharpASM\SharpASM\obj\Debug\SharpASM.pdb
