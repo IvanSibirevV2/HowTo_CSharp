@@ -15,22 +15,14 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Runtime.InteropServices;
+using System.Linq;
 
 namespace System
 {
     public partial class Klava
     {    
-        [DllImport("user32.dll")]
-        private static extern short GetAsyncKeyState(int vKey);
-        [DllImport("user32.dll")]
-        private static extern short GetKeyState(int nVirtKey);
-        [DllImport("user32.dll")]
-        private static extern void keybd_event(byte bVk, byte bScan, int dwFlags, int dwExtraInfo);
-        ////////////////////////////////////////////////////////////////////////////////////////////////////
-        public Klava Sleep(int _Sleep = 50) { System.Threading.Thread.Sleep(_Sleep); return this; }
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////
 <# foreach (VK qwe in this.VKS) { #>
-    public VK VK_<#=qwe.Str#>=new VK(<#=qwe.nVirtKey#>);
+        public VK VK_<#=qwe.Str#>=new VK(<#=qwe.nVirtKey#>);
 <# }#>
         public List<VK> VKS = new List<VK>();
         public Klava()
@@ -41,14 +33,12 @@ namespace System
 <# }#>
         }
 <# foreach (VK qwe in this.VKS) { #>
-    public Klava <#=qwe.Str#>{get{this.VK_<#=qwe.Str#>.Down().Sleep().Up(); return this;} }
+        public Klava <#=qwe.Str#>{get{this.VK_<#=qwe.Str#>.Down().Sleep().Up(); return this;} }
 <# }#>
-
     }
 }
 
 <#+
-
 public class VK
 {
     public byte nVirtKey = 65;//A

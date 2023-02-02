@@ -17,28 +17,19 @@ namespace System
         public VK Down() { keybd_event(nVirtKey, 0, 0, 0); return this; }
         public VK Up() { keybd_event(nVirtKey, 0, 2, 0); return this; }
         public VK Sleep(int _Sleep = 50) { System.Threading.Thread.Sleep(_Sleep); return this; }
-
-        public class Zona51
-        {
-            public System.DateTime p_DTN = System.DateTime.Now;
-            public Action Act = ()=>{};
-            public Zona51() { }
-            public Zona51(Action _Act) {this.Act= _Act; }
-        }
-        public List<Zona51> zona51s = new List<Zona51>();
-
+        public List<HistoryVKGranula> HistoryOfKeyPres = new List<HistoryVKGranula>();
         public static System.Boolean f = false;
-        public System.Boolean Is_()
+        public System.Boolean Is()
         {
             switch (GetKeyState(nVirtKey)) 
             {
                 case -127: //return true; break;
                 case -128:
-                    if (f != true) this.zona51s.Add(new Zona51(() => this.Down())) ; //запись нажатия
+                    if (f != true) this.Sleep().HistoryOfKeyPres.Add(new HistoryVKGranula(() => this.Down(), this)); //запись нажатия
                     f = true;
                     return f; break;
                 default:
-                    if (f != false) this.zona51s.Add(new Zona51(() => this.Up()));//запись отжатия
+                    if (f != false) this.Sleep().HistoryOfKeyPres.Add(new HistoryVKGranula(() => this.Up(), this)); //запись отжатия
                     f = false;
                     return false; break;
             } 
