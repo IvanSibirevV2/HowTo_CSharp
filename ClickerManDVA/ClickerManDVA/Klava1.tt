@@ -1,0 +1,66 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#
+GenVKS
+("A",65)("B",66)("C",67)("D",68)("E",69)("F",70)("G",71)("H",72)("I",73)("J",74)("K",75)("L",76)("M",77)
+("N",78)("O",79)("P",80)("Q",81)("R",82)("S",83)("T",84)("U",85)("V",86)("W",87)("X",88)("Y",89)("Z",90)
+;
+#>
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Runtime.InteropServices;
+
+namespace System
+{
+    public partial class Klava
+    {    
+        [DllImport("user32.dll")]
+        private static extern short GetAsyncKeyState(int vKey);
+        [DllImport("user32.dll")]
+        private static extern short GetKeyState(int nVirtKey);
+        [DllImport("user32.dll")]
+        private static extern void keybd_event(byte bVk, byte bScan, int dwFlags, int dwExtraInfo);
+        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        public Klava Sleep(int _Sleep = 50) { System.Threading.Thread.Sleep(_Sleep); return this; }
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////
+<# foreach (VK qwe in this.VKS) { #>
+    public VK VK_<#=qwe.Str#>=new VK(<#=qwe.nVirtKey#>);
+<# }#>
+        public List<VK> VKS = new List<VK>();
+        public Klava()
+        {
+            this.VKS.Clear();
+<# foreach (VK qwe in this.VKS) { #>
+            this.VKS.Add(this.VK_<#=qwe.Str#>);
+<# }#>
+        }
+<# foreach (VK qwe in this.VKS) { #>
+    public Klava <#=qwe.Str#>{get{this.VK_<#=qwe.Str#>.Down().Sleep().Up(); return this;} }
+<# }#>
+
+    }
+}
+
+<#+
+
+public class VK
+{
+    public byte nVirtKey = 65;//A
+    public string Str = "A"; 
+    public VK() { }
+    public VK(string _str, byte _nVirtKey) { this.nVirtKey = _nVirtKey;this.Str = _str; }
+}
+public List<VK> VKS = new List<VK>();
+public delegate MyDel MyDel(string _str, byte _nVirtKey);
+public MyDel GenVKS(string _str, byte _nVirtKey)
+{
+    VKS.Add(new VK(_str,_nVirtKey) );
+    return GenVKS;
+}
+#>

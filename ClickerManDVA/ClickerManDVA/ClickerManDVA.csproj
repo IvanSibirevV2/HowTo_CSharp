@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,10 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Klava.cs">
+    <None Include="Klava1.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Klava.tt</DependentUpon>
+      <DependentUpon>Klava1.tt</DependentUpon>
     </None>
   </ItemGroup>
 
@@ -23,12 +23,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Klava.tt</DependentUpon>
     </Compile>
+    <Compile Update="Klava1.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Klava1.tt</DependentUpon>
+    </Compile>
+    <Compile Update="KlavaTT.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>KlavaTT.tt</DependentUpon>
+    </Compile>
+    <Compile Update="TextTemplate1.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TextTemplate1.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Klava.tt">
+    <None Update="Klava1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Klava.cs</LastGenOutput>
+      <LastGenOutput>Klava1.cs</LastGenOutput>
     </None>
   </ItemGroup>
 
