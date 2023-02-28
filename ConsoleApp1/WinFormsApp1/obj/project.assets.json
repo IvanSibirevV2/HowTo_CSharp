@@ -1,76 +1,16 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "OpenGL.Net/0.8.4": {
-        "type": "package",
-        "compile": {
-          "lib/net461/OpenGL.Net.dll": {}
-        },
-        "runtime": {
-          "lib/net461/OpenGL.Net.dll": {}
-        }
-      },
-      "OpenGL.Net.WinForms/0.8.4": {
-        "type": "package",
-        "dependencies": {
-          "OpenGL.Net": "0.8.4"
-        },
-        "compile": {
-          "lib/net461/OpenGL.Net.WinForms.dll": {}
-        },
-        "runtime": {
-          "lib/net461/OpenGL.Net.WinForms.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "OpenGL.Net/0.8.4": {
-      "sha512": "F7o2KkIrz9rrtBY7+VRgPKnf2mV8pt3h4/o/CWPt86oIocjzKTQFNo2qH4zVYSWyy/T9rS0xBpu9t75MS6wM8Q==",
-      "type": "package",
-      "path": "opengl.net/0.8.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid/OpenGL.Net.dll",
-        "lib/monoandroid/OpenGL.Net.xml",
-        "lib/net35/OpenGL.Net.dll",
-        "lib/net35/OpenGL.Net.pdb",
-        "lib/net35/OpenGL.Net.xml",
-        "lib/net461/OpenGL.Net.dll",
-        "lib/net461/OpenGL.Net.pdb",
-        "lib/net461/OpenGL.Net.xml",
-        "opengl.net.0.8.4.nupkg.sha512",
-        "opengl.net.nuspec"
-      ]
-    },
-    "OpenGL.Net.WinForms/0.8.4": {
-      "sha512": "6iUB658zmaQkVMWaIl/w/7i+MGmBdtJibZV7LFOBbt40RTC1GxEEv9C/g81613gN1KeLLOSAU+cx3TUKtzrIZA==",
-      "type": "package",
-      "path": "opengl.net.winforms/0.8.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/OpenGL.Net.WinForms.dll",
-        "lib/net35/OpenGL.Net.WinForms.pdb",
-        "lib/net35/OpenGL.Net.WinForms.xml",
-        "lib/net461/OpenGL.Net.WinForms.dll",
-        "lib/net461/OpenGL.Net.WinForms.pdb",
-        "lib/net461/OpenGL.Net.WinForms.xml",
-        "opengl.net.winforms.0.8.4.nupkg.sha512",
-        "opengl.net.winforms.nuspec"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "OpenGL.Net.WinForms >= 0.8.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SibNout2020\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\SibNout2020\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -81,12 +21,8 @@
       "packagesPath": "C:\\Users\\SibNout2020\\.nuget\\packages\\",
       "outputPath": "C:\\D\\Git_Hub\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\SibNout2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -123,10 +59,17 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.32, 3.1.32]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -135,30 +78,16 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"OpenGL.Net 0.8.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "OpenGL.Net",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"OpenGL.Net.WinForms 0.8.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "OpenGL.Net.WinForms",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось загрузить индекс служб для источника https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64"
     }
   ]
 }

@@ -1,32 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "y+b1naJTbgPKF74cj0WNwvb7bqaW6qnxGgp+Uh2/NIe7XIylUauc+jAxsafepwcQYjgGn/OIsHePTlR74+RIeg==",
-  "success": true,
+  "dgSpecHash": "qaUCFsecrpntt/YFr5n2hHAfI+yU+OnAwhedUJ2+jT8A3C2YwdGarEyZuKcnBl4NQB4aVxVwwVRBomn3wmlOGA==",
+  "success": false,
   "projectFilePath": "C:\\D\\Git_Hub\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\SibNout2020\\.nuget\\packages\\opengl.net\\0.8.4\\opengl.net.0.8.4.nupkg.sha512",
-    "C:\\Users\\SibNout2020\\.nuget\\packages\\opengl.net.winforms\\0.8.4\\opengl.net.winforms.0.8.4.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": [
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"OpenGL.Net 0.8.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "OpenGL.Net",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"OpenGL.Net.WinForms 0.8.4\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "OpenGL.Net.WinForms",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось загрузить индекс служб для источника https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64"
     }
   ]
 }

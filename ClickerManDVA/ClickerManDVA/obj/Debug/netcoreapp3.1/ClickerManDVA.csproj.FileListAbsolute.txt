@@ -4,6 +4,7 @@ C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\Cl
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.runtimeconfig.dev.json
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.dll
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.pdb
+C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.csproj.AssemblyReference.cache
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.GeneratedMSBuildEditorConfig.editorconfig
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.AssemblyInfoInputs.cache
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.AssemblyInfo.cs
@@ -11,4 +12,3 @@ C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\Cl
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.dll
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.pdb
 C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.genruntimeconfig.cache
-C:\D\Git_Hub\HowTo_CSharp\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.csproj.AssemblyReference.cache

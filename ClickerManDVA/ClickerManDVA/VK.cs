@@ -5,6 +5,13 @@ using System.Text;
 
 namespace System
 {
+    public class VK_Sleep : VK
+    {
+        public VK_Sleep()
+        {
+            this.Act = a => { System.Threading.Thread.Sleep(50); };
+        }
+    }
     public class VK
     {
         [DllImport("user32.dll")]
@@ -17,7 +24,6 @@ namespace System
         public VK Down() { keybd_event(nVirtKey, 0, 0, 0); return this; }
         public VK Up() { keybd_event(nVirtKey, 0, 2, 0); return this; }
         public VK Sleep(int _Sleep = 50) { System.Threading.Thread.Sleep(_Sleep); return this; }
-        public List<HistoryVKGranula> HistoryOfKeyPres = new List<HistoryVKGranula>();
         public static System.Boolean f = false;
         public System.Boolean Is()
         {
@@ -25,24 +31,46 @@ namespace System
             {
                 case -127: //return true; break;
                 case -128:
-                    if (f != true) this.Sleep().HistoryOfKeyPres.Add(new HistoryVKGranula(() => this.Down(), this)); //запись нажатия
+                   // if (f != true) if(this.Sender!=null) this.Sender.HistoryVKS.Add(new VK().Set(_this: this,_TimeSpan: this.Sender.DateTimeStart - System.DateTime.Now, _Act: a => a.Down()));//Записть нажатия
                     f = true;
                     return f; break;
                 default:
-                    if (f != false) this.Sleep().HistoryOfKeyPres.Add(new HistoryVKGranula(() => this.Up(), this)); //запись отжатия
+                   // if (f != false) if (this.Sender != null) this.Sender.HistoryVKS.Add(new VK().Set(_this: this, _TimeSpan: this.Sender.DateTimeStart - System.DateTime.Now, _Act: a => a.Up()));//запись отжатия
                     f = false;
                     return false; break;
-            } 
+            }
             return false; 
         }
         
         public byte nVirtKey = 65;//A
         public string Str = "A"; 
-        public System.DateTime _dateTime = System.DateTime.Now;
+        public System.TimeSpan TimeSpan;
+        public Klava Sender =null;
+        public System.Action<VK> Act =null;
         public VK() { }
-        public VK(byte _nVirtKey) { this.nVirtKey = _nVirtKey; }
-
-        public VK(string _str, byte _nVirtKey) { this.nVirtKey = _nVirtKey;this.Str = _str; }
-
+        public VK Set(
+            VK _this=null
+            , System.Nullable<byte> _nVirtKey = null
+            , System.String _str = null
+            , System.Nullable<System.TimeSpan> _TimeSpan = null
+            , Klava _Sender = null
+            , System.Action<VK> _Act = null
+        )
+        {
+            if (_this != null) 
+                this.Set(_this: null
+                    , _nVirtKey: _this.nVirtKey
+                    , _str: _this.Str
+                    , _TimeSpan: _this.TimeSpan
+                    , _Sender: _this.Sender
+                    , _Act: _this.Act
+                    );
+            if (_nVirtKey != null) this.nVirtKey = _nVirtKey.Value;
+            if (_str != null) this.Str = _str;
+            if (_TimeSpan != null) this.TimeSpan = _TimeSpan.Value;
+            if (_Sender != null) this.Sender = _Sender;
+            if (_Act != null) this.Act = _Act;
+            return this;
+        }
     }
 }

@@ -22,14 +22,14 @@ namespace System
     public partial class Klava
     {    
 <# foreach (VK qwe in this.VKS) { #>
-        public VK VK_<#=qwe.Str#>=new VK(<#=qwe.nVirtKey#>);
+        public VK VK_<#=qwe.Str#>=new VK().Set(_nVirtKey:<#=qwe.nVirtKey#>,_str:"<#=qwe.Str#>");
 <# }#>
         public List<VK> VKS = new List<VK>();
         public Klava()
         {
             this.VKS.Clear();
 <# foreach (VK qwe in this.VKS) { #>
-            this.VKS.Add(this.VK_<#=qwe.Str#>);
+            this.VKS.Add(this.VK_<#=qwe.Str#>.Set(_Sender:this));
 <# }#>
         }
 <# foreach (VK qwe in this.VKS) { #>

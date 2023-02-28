@@ -10,7 +10,7 @@ namespace System
         public Action Act = () => { };
         public VK p_VK= null;
         public HistoryVKGranula() { }
-        public HistoryVKGranula(Action _Act,) { this.Act = _Act; }
+        public HistoryVKGranula(Action _Act) { this.Act = _Act; }
         public HistoryVKGranula(Action _Act, VK _VK) { this.Act = _Act; this.p_VK = _VK; }
     }
 }
