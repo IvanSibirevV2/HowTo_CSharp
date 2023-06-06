@@ -19,3 +19,4 @@ C:\D\Git_Hub\HowTo_CSharp\screenshot\screenshot\obj\Debug\screenshot.csproj.Gene
 C:\D\Git_Hub\HowTo_CSharp\screenshot\screenshot\obj\Debug\screenshot.csproj.CoreCompileInputs.cache
 C:\D\Git_Hub\HowTo_CSharp\screenshot\screenshot\obj\Debug\screenshot.exe
 C:\D\Git_Hub\HowTo_CSharp\screenshot\screenshot\obj\Debug\screenshot.pdb
+C:\D\Git_Hub\HowTo_CSharp\screenshot\screenshot\obj\Debug\screenshot.csproj.SuggestedBindingRedirects.cache

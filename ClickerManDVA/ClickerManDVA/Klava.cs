@@ -14,7 +14,7 @@ namespace System
         private static extern short GetKeyState(int nVirtKey);
         [DllImport("user32.dll")]
         private static extern void keybd_event(byte bVk, byte bScan, int dwFlags, int dwExtraInfo);
-
+        public Mouse p_Mouse;
         ////////////////////////////////////////////////////////////////////////////////////////////////////
         public Klava Sleep(int _Sleep = 50) { System.Threading.Thread.Sleep(_Sleep); return this; }
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -50,6 +50,8 @@ namespace System
                 if(_ls_VK.Count()!=0) this.HistoryVKS.Add(_ls_VK);
             }
             ;
+
+
             return this;
         }
         public Klava HistoryExecute() 
