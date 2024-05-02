@@ -6,8 +6,8 @@
       "version": "3.1.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\SibNout2020\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\SibNout2020\\.nuget\\packages"
+      "C:\\Users\\SibNout2023\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\SibNout2023\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

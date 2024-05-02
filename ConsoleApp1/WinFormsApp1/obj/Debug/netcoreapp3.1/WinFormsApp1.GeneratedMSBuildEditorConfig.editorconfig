@@ -6,4 +6,6 @@ build_property.ApplicationHighDpiMode =
 build_property.ApplicationUseCompatibleTextRendering = 
 build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = WinFormsApp1
-build_property.ProjectDir = C:\D\Git_Hub\HowTo_CSharp\ConsoleApp1\WinFormsApp1\
+build_property.ProjectDir = C:\D\GitHub\GitHubOll\HowTo_CSharp\ConsoleApp1\WinFormsApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

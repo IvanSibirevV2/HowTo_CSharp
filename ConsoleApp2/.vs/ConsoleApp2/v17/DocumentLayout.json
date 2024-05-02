@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CAD291A-CB26-4DDC-A7E9-889EBCF25C8E}|ConsoleApp2\\ConsoleApp2.csproj|c:\\d\\github\\githuboll\\howto_csharp\\consoleapp2\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CAD291A-CB26-4DDC-A7E9-889EBCF25C8E}|ConsoleApp2\\ConsoleApp2.csproj|solutionrelative:consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ConsoleApp2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleApp2",
+              "DocumentMoniker": "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+              "RelativeDocumentMoniker": "ConsoleApp2\\ConsoleApp2.csproj",
+              "ToolTip": "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp2\\ConsoleApp2\\ConsoleApp2.csproj",
+              "RelativeToolTip": "ConsoleApp2\\ConsoleApp2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-04-01T21:31:51.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp2\\Program.cs",
+              "ToolTip": "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp2\\ConsoleApp2\\Program.cs",
+              "RelativeToolTip": "ConsoleApp2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T09:08:38.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

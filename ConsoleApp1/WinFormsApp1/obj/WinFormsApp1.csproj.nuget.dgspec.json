@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\D\\Git_Hub\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\D\\Git_Hub\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\D\\Git_Hub\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\D\\Git_Hub\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-        "packagesPath": "C:\\Users\\SibNout2020\\.nuget\\packages\\",
-        "outputPath": "C:\\D\\Git_Hub\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\obj\\",
+        "projectPath": "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "packagesPath": "C:\\Users\\SibNout2023\\.nuget\\packages\\",
+        "outputPath": "C:\\D\\GitHub\\GitHubOll\\HowTo_CSharp\\ConsoleApp1\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SibNout2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SibNout2023\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,8 +63,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
             }
           ],
           "frameworkReferences": {
@@ -70,7 +87,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
